@@ -7,7 +7,7 @@ Simulate decades of stock market investing in minutes
 - "scores.txt" contains information about the investor's performance (see source code for details)
 
 ## How it works
-"simulator.py" displays chart data of a random stock. The user has a fixed starting balance, and can skip days (either 1 or 15) and choose when to buy or sell. Once the days are finished a new chart is randomized. Scores are saved automatically.
+"simulator.py" displays chart data of a random stock. The user has a fixed starting balance, and can skip days (either 1 or 15) and choose when to buy or sell. Once the days are finished a new chart is randomized and the player's balance is reset. Final balance is saved automatically.
 
 ## Controls
 - move chart horizontally: left mouse button + drag
